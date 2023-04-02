@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y \
     libsmpeg-dev libportmidi-dev libavformat-dev libswscale-dev \
     libjpeg-dev libfreetype6-dev \
     apt-get install -y --no-install-recommends \
-    python-pygame 
+    pygame 
     
 
 WORKDIR /app
