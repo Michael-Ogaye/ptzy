@@ -23,7 +23,7 @@ screen.fill(BACKGROUND_COLOR)
 MOLE_IMAGE = pygame.image.load("mole.png")
 
 # Load the hammer image
-HAMMER_IMAGE = pygame.image.load("hammer.png")
+HAMMER_IMAGE = pygame.image.load("hammer.jpeg")
 
 # Set the number of moles to appear
 NUM_MOLES = 10
@@ -118,4 +118,4 @@ while running:
 
 # Game over
 game_over_text = font.render("Game Over", True, (0, 0, 0))
-screen.blit(game_over_text, )
+screen.blit(game_over_text,(10,10) )
